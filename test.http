@@ -1,0 +1,10 @@
+POST http://localhost:7000/posts HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Lawrence Ndege",
+    "memberNo": "600-001",
+    "amount": 5000,
+    "datePaid": "2021-10-21",
+    "creator": "Eric Ndege"
+}                                      
